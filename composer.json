@@ -1,0 +1,24 @@
+{
+  "name": "groar/simple-rest-client",
+  "description": "Simple REST client",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Sebastian Lagemann",
+      "email": "degola@groar.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Groar\\Rest\\Endpoint\\": "src/"
+    }
+  }
+}
